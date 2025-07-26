@@ -1,0 +1,105 @@
+{
+  "workbench.colorTheme": "DarkRedCustom",
+  "editor.fontFamily": "Fira Code, JetBrains Mono, Consolas, monospace",
+  "editor.fontWeight": "bold",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.renderWhitespace": "all",
+  "editor.renderControlCharacters": true,
+  "editor.smoothScrolling": true,
+  "workbench.tree.indent": 16,
+
+  "workbench.colorCustomizations": {
+    "editor.background": "#000000",
+    "editor.foreground": "#CCCCCC",
+    "editor.lineHighlightBackground": "#1a1a1a",
+    "editorCursor.foreground": "#FF0000",
+    "editorLineNumber.foreground": "#555555",
+    "editorLineNumber.activeForeground": "#FF4444",
+    "sideBar.background": "#000000",
+    "sideBar.foreground": "#FF4444",
+    "sideBarSectionHeader.foreground": "#FF0000",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#FF4444",
+    "activityBarBadge.background": "#FF0000",
+    "tab.activeBackground": "#111111",
+    "tab.inactiveBackground": "#000000",
+    "tab.activeForeground": "#FFFFFF",
+    "tab.inactiveForeground": "#777777",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#FF4444",
+    "editor.selectionBackground": "#330000"
+  },
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment.js", "comment.jsx", "comment"],
+        "settings": {
+          "foreground": "#555555",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": ["keyword.js", "keyword.control.js", "keyword.jsx", "keyword.control.jsx", "keyword"],
+        "settings": {
+          "foreground": "#FF4444",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": ["string.js", "string.quoted.js", "string.jsx", "string.quoted.jsx", "string"],
+        "settings": {
+          "foreground": "#CCCCCC",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": ["variable.other.readwrite.js", "variable.other.readwrite.jsx", "variable"],
+        "settings": {
+          "foreground": "#FFFFFF",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function.js",
+          "entity.name.function.jsx",
+          "support.function.js",
+          "support.function.jsx",
+          "function"
+        ],
+        "settings": {
+          "foreground": "#FF5555",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": ["entity.name.tag.jsx", "entity.name.tag"],
+        "settings": {
+          "foreground": "#FF2222",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": ["entity.other.attribute-name.jsx", "entity.other.attribute-name"],
+        "settings": {
+          "foreground": "#FF5555"
+        }
+      },
+      {
+        "scope": ["constant.numeric.js", "constant.numeric.jsx", "constant.numeric"],
+        "settings": {
+          "foreground": "#888888"
+        }
+      }
+    ]
+  },
+
+  "window.zoomLevel": 0,
+  "files.autoSave": "onFocusChange"
+}
